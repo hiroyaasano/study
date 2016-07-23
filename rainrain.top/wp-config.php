@@ -29,13 +29,13 @@
 define('DB_NAME', 'dandeliontest_rainrain_top');
 
 /** MySQL データベースのユーザー名 */
-define('DB_USER', 'dandeliontest');
+define('DB_USER', 'root');
 
 /** MySQL データベースのパスワード */
-define('DB_PASSWORD', 'passwd_11');
+define('DB_PASSWORD', 'root');
 
 /** MySQL のホスト名 */
-define('DB_HOST', 'mysql464.db.sakura.ne.jp');
+define('DB_HOST', 'localhost');
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
 define('DB_CHARSET', 'utf8');
