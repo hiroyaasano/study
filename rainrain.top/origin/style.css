@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* reset */
+html, body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd,table, th, td {
+  margin: 0;
+  padding: 0;
+  line-height: 1.0;
+  font-family:
+    "Hiragino Kaku Gothic ProN",
+    Meiryo,
+    sans-serif;
+}
+ul, ol {
+  list-style: none; /* マーカーを消す */
+}
+a {
+  text-decoration: none; /* 下線を消す */
+}
+img {
+  border: 0;
+}
+img, input {
+  vertical-align: bottom;
+}
+.wrapper{
+  width: 980px;
+	margin: 0 auto;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+  background: url(image/icon2.jpg)no-repeat;
+}
+.title h1{
+  float:right;
+  margin-left: 400px;
+
+
+}
+h1{
+  font-size: 24px;
+}
+.nav{
+	width: 980px;
+	overflow: hidden;
+}
+.nav li{
+	box-sizing: border-box;
+	border-left: 2px solid #DAD6DF;
+	text-align: center;
+	width : 196px;
+	line-height : 40px;
+	float : left;
+}
+.nav li a{
+    color:#B4B4B4;
+    transition: color 0.5s;
+}
+.last{
+	box-sizing: border-box;
+  border-right: 2px solid #DAD6DF;
+}
+li{
+  background-color: #fff;
+  transition: background-color 3s;
+}
+li:hover {
+    background-color: #9EEAE8;
+}
+li:hover a{
+  color: #fff;
+}
+
